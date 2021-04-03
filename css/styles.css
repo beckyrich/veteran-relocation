@@ -5,15 +5,16 @@ body {
 h1,
 h2,
 h4 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Source Serif Pro', serif;
 }
 
 header h1 {
   color: white;
 }
 
-header h4 {
+header h5 {
   color: #abad9a;
+  font-family: 'Source Serif Pro', serif;
 }
 
 .jumbotron {

@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+    <!-- JumboTron -->
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
@@ -24,25 +24,95 @@
             </div>
         </div>
     </header>
-
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#vetNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="vetNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item active"><a class="nav-link" href="#">Search</a></li>
-                <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
-            </ul>
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#vetNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="vetNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">Search</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <div class="container">
         <div class="row row-content">
-            <div class="col">
-                <h1>Search Here</h1>
+            <div class="col-12">
+                <h2>Search: Find the Perfect City</h2>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <form>
+                    <div class="form-group row">
+                        <label for="minpop" class="col-sm-3 col-form-label">Population</label>
+                        <div class="col-sm-4">
+                            <input type="number" id="minpop" name="minpop" class="form-control" placeholder="Minimum Population"/>
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="number" id="maxpop" name="maxpop" class="form-control" placeholder="Maximum Population"/>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label">Filter by State</label>
+                        <div class="col-sm-4">
+                            <input type="text" placeholder="Search State...">
+                        </div>
+                    <div class="form-group row">
+                        <label for="minvalue" class="col-md-4 col-form-label">Median Home Value</label>
+                        <div class="col-md-4">
+                            <input type="number" id="minvalue" name="minvalue" class="form-control" placeholder="Minimum Med Home Value"/>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="number" id="maxvalue" name="maxvalue" class="form-control" placeholder="Maximum Med Home Value"/>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="minrent" class="col-md-4 col-form-label">Median Home Rent</label>
+                        <div class="col-md-4"> 
+                            <input type="number" id="minrent" name="minrent" class="form-control" placeholder="Minimum Rent"/>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="number" id="maxrent" name="maxrent" class="form-control" placeholder="Maximum Rent"/>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="minincome" class="col-sm-3 col-form-label">Median Income Range</label>
+                        <div class="col-sm-4"> 
+                            <input type="number" id="minincome" name="minincome" class="form-control" placeholder="Minimum Income">
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="number" id="maxincome" name="maxincome" class="form-control" placeholder="Maximum Income"/>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="college" class="col-md-4 col-form-label">Max Distance to 4 Year College</label> 
+                        <div class="col-md-4">    
+                            <input type="number" id="college" name="college" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">        
+                        <label for="techschool" class="col-md-4 col-form-label">Max Distance to Tech School</label> 
+                        <div class="col-md-4">
+                            <input type="number" id="techschool" name="techschool" class="form-control">
+                        </div>
+                    <div class="form-group row">
+                        <label for="minva" class="col-sm-3 col-form-label">Distance to VA</label>
+                        <div class="col-md-4">
+                            <input type="number" id="minva" name="minva" class="form-control" placeholder="Minimum Distance">
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="number" id="maxpop" name="maxpop" class="form-control" placeholder="Maximum Population">
+                        </div>
+                    </div>
+                        <button type="submit">Search</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

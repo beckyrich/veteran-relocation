@@ -16,6 +16,13 @@ header h5 {
   color: #abad9a;
   font-family: 'Source Serif Pro', serif;
 }
+
+.btn-default {
+  background-color: #005b51;
+  color: #fff;
+  border-color: #2f3e48;
+}
+
 .carousel img {
   top: 0;
   left: 0;

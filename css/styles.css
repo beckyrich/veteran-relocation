@@ -49,6 +49,12 @@ header h5 {
   min-height: 200px;
 }
 
+#becky {
+  box-shadow: 8px 8px 10px #aaa;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
 footer {
   background-image: linear-gradient(#2e8e82, white);
   padding: 20px 0;

@@ -16,6 +16,7 @@ header h1 {
 header h5 {
   color: #abad9a;
   font-family: 'Source Serif Pro', serif;
+  text-shadow: 1.5px 1px black;
 }
 
 .btn-default {
